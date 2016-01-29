@@ -1,2 +1,5 @@
-# ci_android_acceptancetests
-CI Android Acceptance Tests
+# Sample cucumber project for Mobile CI pattern
+Mobile Automated acceptance tests for Android
+
+# Usage
+TODO
