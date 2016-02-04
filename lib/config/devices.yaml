@@ -107,7 +107,7 @@ devices:
         appPackage        : com.example.android.contactmanager
         appium-version : "1.4.16"
     appium_lib:
-            sauce_username:
+            sauce_username: <replace_with_username>
             sauce_access_key: 0956c4a2-f696-4ffb-a4b0-ab14f54a3e59
   saucelabs_samsung_galaxy_s4:
     caps:
@@ -119,5 +119,5 @@ devices:
         appPackage        : com.example.android.contactmanager
         appium-version : "1.4.16"
     appium_lib:
-            sauce_username:
+            sauce_username: <replace_with_username>
             sauce_access_key: 0956c4a2-f696-4ffb-a4b0-ab14f54a3e59
