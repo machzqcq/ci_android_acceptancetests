@@ -3,4 +3,7 @@ Mobile Automated acceptance tests for Android
 
 # Overall Architecture
 
-![Architecture](./images/AppiumArchitecture.png)
+# Parallel Exeuction
+
+
+
