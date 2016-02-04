@@ -11,3 +11,4 @@ gem 'test-unit',          '~> 2.5.5' # required for bundle exec ruby xunit_andro
 gem 'activesupport', '4.1.8'
 gem 'watir-webdriver', '0.8.0'
 gem 'saucelabs'
+gem 'rake'
