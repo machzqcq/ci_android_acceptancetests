@@ -21,5 +21,12 @@ Feature: CI Android
     And I click add contact
     Then take screenshot of contact form
 
+  @ci_add_contact_sauce
+  Scenario: Contact on sauce
+    Given I open login screen on app
+    And I click add contact
+    Then I successfully add a contact
+    And verify that it was added
+
 
 
