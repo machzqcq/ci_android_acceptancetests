@@ -1,0 +1,11 @@
+[caps]
+platformName = "Android"
+deviceName = "Nexus 6p"
+app = "./app-debug.apk"
+appPackage = "com.example.android.contactmanager"
+appActivity = "com.example.android.contactmanager.ContactManager"
+
+[appium_lib]
+server_url = "http://127.0.0.1:4723/wd/hub"
+sauce_username = ""
+sauce_access_key = ""
