@@ -1,5 +1,6 @@
 Feature: CI Android
   All screens should launch fine
+  
   @non-ci
   Scenario: Settings
     Given I click about phone

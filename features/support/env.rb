@@ -1,6 +1,5 @@
 require 'rspec/expectations'
 require 'appium_lib'
-require 'cucumber/ast'
 require 'yaml'
 require 'active_support/core_ext/hash'
 

@@ -1,7 +1,6 @@
 .idea/
 automation_logs/
 *.log
-Gemfile.lock
 *.html
 screenshots/
 *.json

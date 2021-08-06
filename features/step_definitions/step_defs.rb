@@ -5,6 +5,7 @@ end
 
 And(/^I click add contact$/) do
   id('com.example.android.contactmanager:id/addContactButton').click
+  sleep(4)
 end
 
 Then(/^I verify contact screen is displayed$/) do
@@ -14,9 +15,11 @@ Then(/^I successfully add a contact$/) do
   id('com.example.android.contactmanager:id/contactNameEditText').type "blah"
   id('com.example.android.contactmanager:id/contactPhoneEditText').type "123-456-7890"
   id('com.example.android.contactmanager:id/contactPhoneTypeSpinner').click
+  sleep(3)
   tags('android.widget.CheckedTextView')[2].click
   id('com.example.android.contactmanager:id/contactEmailEditText').type "pradeep@seleniumframework.com"
   id('com.example.android.contactmanager:id/contactSaveButton').click
+  sleep(3)
 end
 
 And(/^verify that it was added$/) do

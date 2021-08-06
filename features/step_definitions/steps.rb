@@ -1,8 +1,10 @@
 Given /^I click about phone$/ do
-  scroll_to('About phone').click
+  scroll_to('System').click
+  scroll_to('About phone').click #The exact path to get to About phone might vary based on device. YMMV
 end
 
 Given /^the Android version is a number$/ do
+
   android_version = 'Android version'
   scroll_to android_version
 
