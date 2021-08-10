@@ -1,0 +1,172 @@
+devices:
+  lge-nexus_4-006ea820a10e1281:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion: '4.1'
+        deviceName     : lge-nexus_4-006ea820a10e1283
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 006ea820a10e1283
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+  lge-nexus_5-066acc3d0ac5b4ed:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '6.0.1'
+        deviceName     : lge-nexus_5-066acc3d0ac5b4ed
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 066acc3d0ac5b4ed
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4702
+  samsung-sm_n900t-34634a1c:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '5.0'
+        deviceName     : samsung-sm_n900t-34634a1c
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 34634a1c
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4712
+  lge-nexus_5-06511886344ba98a:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '6.0.1'
+        deviceName     : lge-nexus_5-06511886344ba98a
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 06511886344ba98a
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4724
+  htc-one-HT36SW913846:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '5.1'
+        deviceName     : htc-one-HT36SW913846
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: HT36SW913846
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4735
+  samsung-4d00baed4bdb31b1:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '5.0'
+        deviceName     : samsung-4d00baed4bdb31b1
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 4d00baed4bdb31b1
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4746
+  lge-nexus_4-00a219ae09d05912:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion: '4.1'
+        deviceName     : lge-nexus_4-00a219ae09d05912
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 00a219ae09d05912
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4757
+  huawei-nexus_6p-84B5T15A17000142:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion: '8.1.0'
+        deviceName     : huawei-nexus_6p-84B5T15A17000142
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: 84B5T15A17000142
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4768
+  motorola-google-ZX1B222FCD:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion: '8.1.0'
+        deviceName     : motorola-google-ZX1B222FCD
+        app: app-debug.apk
+        appActivity       : .Settings
+        appPackage        : com.android.settings
+        newCommandTimeout : 60
+        udid: ZX1B222FCD
+        deviceReadyTimeout: 10 # default 5
+    appium_lib:
+            sauce_username:
+            sauce_access_key:
+            port: 4778
+  saucelabs_samsung_galaxy_s5:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '4.4'
+        deviceName     : 'Samsung Galaxy S5 Device'
+        app: http://saucelabs.com/example_files/ContactManager.apk
+        appActivity       : .ContactManager
+        appPackage        : com.example.android.contactmanager
+        appium-version : "1.4.16"
+        newCommandTimeout : 60
+    appium_lib:
+            sauce_username: <replace_with_username>
+            sauce_access_key: 0956c4a2-f696-4ffb-a4b0-ab14f54a3e59
+  saucelabs_samsung_galaxy_s4:
+    caps:
+        automationName: UiAutomator2
+        platformName    : Android
+        platformVersion : '4.4'
+        deviceName     : 'Samsung Galaxy S4 Device'
+        app: http://saucelabs.com/example_files/ContactManager.apk
+        appActivity       : .ContactManager
+        appPackage        : com.example.android.contactmanager
+        appium-version : "1.4.16"
+        newCommandTimeout : 60
+    appium_lib:
+            sauce_username: <replace_with_username>
+            sauce_access_key: 0956c4a2-f696-4ffb-a4b0-ab14f54a3e59

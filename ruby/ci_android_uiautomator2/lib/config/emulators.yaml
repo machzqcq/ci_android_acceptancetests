@@ -1,0 +1,25 @@
+emulators:
+  Nexus_5_API_23_x86:
+      caps:
+          platformName    : Android
+          platformVersion: '6.0.1'
+          deviceName     : IGNORED
+          avd : Nexus_5_API_23_x86
+          app: app-debug.apk
+          appActivity       : .Settings
+          appPackage        : com.android.settings
+      appium_lib:
+          sauce_username:
+          sauce_access_key:
+  Nexus_4_API_23_x86:
+      caps:
+          platformName    : Android
+          platformVersion: '4.1'
+          deviceName     : IGNORED
+          avd: Nexus_4_API_23
+          app: app.debug.apk
+          appActivity       : .Settings
+          appPackage        : com.android.settings
+      appium_lib:
+              sauce_username:
+              sauce_access_key:

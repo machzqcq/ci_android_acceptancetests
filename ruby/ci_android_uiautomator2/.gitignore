@@ -1,0 +1,8 @@
+.idea/
+automation_logs/
+*.log
+*.html
+screenshots/
+*.json
+./**/*.apk
+*.png
