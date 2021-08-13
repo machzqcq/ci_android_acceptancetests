@@ -9,3 +9,8 @@ In the order of commits, at least at this point. Order can change
 - ADD python codebase
 - ADD java codebase
 - ADD javascript codebase
+
+
+# USEFUL LINKS
+
+[Appium Server Config Switches Blog](https://wasiqb.github.io/projects/appium/server-setting/)
