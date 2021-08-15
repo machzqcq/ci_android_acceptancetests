@@ -1,0 +1,3 @@
+*.xml
+*.json
+.ipynb_checkpoints/*
