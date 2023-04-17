@@ -75,7 +75,9 @@ GEM
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
     netrc (0.11.0)
-    nokogiri (1.12.2-x86_64-darwin)
+    nokogiri (1.14.3-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     numerizer (0.1.1)
     power_assert (2.0.0)
@@ -84,7 +86,7 @@ GEM
       middleware
       thor
       thread_safe
-    racc (1.5.2)
+    racc (1.6.2)
     rake (13.0.6)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -138,6 +140,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   activesupport (= 6.1.4)
